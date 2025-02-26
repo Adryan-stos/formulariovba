@@ -1,0 +1,30 @@
+📌 Descrição do Repositório
+Cadastro de Atendimentos - VBA
+Este repositório contém um código VBA desenvolvido para automatizar o cadastro de atendimentos dentro de uma planilha do Excel. O código permite validar as informações inseridas no formulário, organizar os atendimentos por tipo e garantir que os registros sejam salvos corretamente em uma base de dados interna dentro do próprio Excel.
+
+🛠 Funcionalidades
+✅ Verifica se os campos obrigatórios foram preenchidos antes de permitir o cadastro.
+✅ Controla a sequência dos atendimentos (1º → 2º → 3º), evitando registros fora da ordem correta.
+✅ Impede múltiplos atendimentos simultâneos para um mesmo parceiro.
+✅ Registra os dados em diferentes planilhas de destino conforme o tipo de atendimento.
+✅ Gera um código único de atendimento com base na data e no ID do parceiro.
+✅ Exibe mensagens de erro quando há inconsistências nos dados.
+
+📂 Estrutura do Projeto
+📄 Código VBA: Arquivo contendo a macro para processar os cadastros.
+📊 Planilha Modelo: Arquivo Excel com o formulário e as bases de dados de atendimento.
+
+
+🚀 Como Usar
+1️⃣ Abra o arquivo Excel e habilite as macros.
+2️⃣ Preencha os campos do formulário de atendimento.
+3️⃣ Selecione o tipo de atendimento e clique no botão "Cadastrar".
+4️⃣ O código validará os dados e os registrará na base correta.
+
+📌 Tecnologias Utilizadas
+Microsoft Excel VBA (Visual Basic for Applications)
+Macros para automação de processos
+
+
+💡 Contribuição
+Sinta-se à vontade para sugerir melhorias ou reportar problemas! Se quiser colaborar, basta fazer um fork do repositório e abrir um Pull Request.
