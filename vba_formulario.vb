@@ -266,8 +266,8 @@ dataHoraCadastro = Format(dataAtual, "dd/mm/yyyy hh:mm")
 
 
 
-celulaqtratou = "NOTEC"
-nomeAtendente = "MICAELLA"
+celulaqtratou = "Setor"
+nomeAtendente = "Usuário"
 codigoH7 = wsFormulario.Range("H7").Value ' ID Parceiro
 codigoL7 = wsFormulario.Range("L7").Value ' Razão Social
 codigoAC7 = wsFormulario.Range("AC7").Value ' Nome Fantasia
@@ -287,8 +287,8 @@ codigoN29 = wsFormulario.Range("N29").Value ' Demanda
 codigoC31 = wsFormulario.Range("C31").Value ' Observação do Atendimento
 codigoAL29 = wsFormulario.Range("AL29").Value ' Valor Acordado?
 codigoAT29 = wsFormulario.Range("AT29").Value ' Quanto?
-codigoBL32 = wsFormulario.Range("BL32").Value ' Codigo Adryan
-codigoCad = Day(wsFormulario.Range("B2").Value) & Month(wsFormulario.Range("B2").Value) & Year(wsFormulario.Range("B2").Value) & "-" & wsFormulario.Range("H7").Value ' CodigoEli
+codigoBL32 = wsFormulario.Range("BL32").Value ' Codigo 1
+codigoCad = Day(wsFormulario.Range("B2").Value) & Month(wsFormulario.Range("B2").Value) & Year(wsFormulario.Range("B2").Value) & "-" & wsFormulario.Range("H7").Value ' Codigo 2
 codigoB2 = wsFormulario.Range("B2").Value ' Maior Data de Atendimento
 concatenacaocod = wsFormulario.Range("H7").Value & "-" & atendimentoAtual
 
